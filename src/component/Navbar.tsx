@@ -1,4 +1,5 @@
 import BillBoard from "../../public/Billboard.png";
+import ArrowDown from "../../public/arrow down.png";
 
 type Link = {
   id: number;
@@ -17,22 +18,31 @@ const Links: Links = [
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between items-center p-4">
+    <div className="flex flex-1 justify-between items-center py-3">
       {/* logo */}
-      <div>
+      <a href="/" className="flex justify-center items-center">
         <img src={BillBoard} alt="BillBoard" width={200} height={200} />
-      </div>
+      </a>
       {/* menu items */}
-      <div className="flex gap-8">
+      <div className="flex justify-center items-center gap-8 font-semibold text-xl ]">
         {Links.map((link) => (
-          <a key={link.id} href={link.link}>
+          <a
+            key={link.id}
+            href={link.link}
+            className="hover:text-[#F4450B] hover:cursor-pointer"
+          >
             {link.name}
           </a>
         ))}
       </div>
       {/* download button */}
       <div>
-        <button>Download</button>
+        <button className="bg-[#F4450B] text-white px-8 py-3 rounded-full flex items-center gap-2 cursor-pointer">
+          Download
+          <span>
+            <img src={ArrowDown} alt="Arrow Down" width={15} height={15} />
+          </span>
+        </button>
       </div>
     </div>
   );
