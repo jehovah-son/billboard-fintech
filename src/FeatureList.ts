@@ -40,7 +40,7 @@ const FeatureLists: FeatureListProps = [
     },
     {
         id: 6,
-        img: "/public/featureImg1.png",
+        img: "/public/featureImg.png",
         title: "24/7 Support",
         desc: "Get help anytime, anywhere."
     },
