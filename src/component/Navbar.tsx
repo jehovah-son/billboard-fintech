@@ -18,7 +18,7 @@ const Links: Links = [
 
 export default function Navbar() {
   return (
-    <div className="flex flex-1 justify-between items-center py-3">
+    <div className="flex flex-1 justify-between items-center py-3 max-w-[1200px] mx-auto p-[20px]">
       {/* logo */}
       <a href="/" className="flex justify-center items-center">
         <img src={BillBoard} alt="BillBoard" width={200} height={200} />
