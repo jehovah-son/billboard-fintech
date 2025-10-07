@@ -19,7 +19,7 @@ export default function Hero() {
         </p>
         {/* button */}
         <div className="flex mt-8 gap-5">
-          <button className="bg-[#F4450B] text-white px-8 py-3 rounded-full flex items-center gap-2 cursor-pointer">
+          <button className="bg-[#F4450B]  text-white px-8 py-3 rounded-full flex items-center gap-2 cursor-pointer">
             Download
             <span>
               <img src={ArrowDown} alt="Arrow Down" width={15} height={15} />

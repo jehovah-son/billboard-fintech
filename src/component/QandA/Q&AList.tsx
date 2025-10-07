@@ -1,4 +1,4 @@
-import FaQItem from "./component/Q&A";
+import FaQItem from "./Q&A";
 
 type FAQList = {
   id: number;
@@ -36,7 +36,7 @@ const FAQS: FAQLists = [
 
 export default function FAQLists() {
   return (
-    <div className="w-full py-16 bg-gray-50">
+    <div className="w-full pt-20">
       <div className="max-w-[1200px] mx-auto px-6 flex flex-col md:flex-row justify-between gap-20">
         {/* Left Section */}
         <div className="flex flex-col max-w-[500px]">
@@ -47,7 +47,7 @@ export default function FAQLists() {
             Didn’t find the answers to your questions? Ask us we’ll respond as
             soon as possible.
           </p>
-          <button className="bg-[#F4450B] hover:bg-[#d93c09] transition-colors text-white px-8 py-3 rounded-full flex items-center gap-2 w-fit">
+          <button className="bg-[#F4450B]  hover:cursor-pointer transition-colors text-white px-8 py-3 rounded-full flex items-center gap-2 w-fit">
             More Questions?
           </button>
         </div>
