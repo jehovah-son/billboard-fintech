@@ -5,14 +5,14 @@ import Features from "./component/Features";
 import Preview from "./component/AppPreview";
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <Features />
-      <Preview />
-    </>
-  );
+    return (
+        <>
+            <Navbar />
+            <Hero />
+            <Features />
+            <Preview />
+        </>
+    );
 }
 
 export default App;
