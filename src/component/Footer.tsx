@@ -29,7 +29,7 @@ const Legals: Links = [
 // container mx-auto w-full
 export default function Footer() {
   return (
-    <div className="pt-20 bg-gray-50">
+    <div className="pt-20">
       <div className="container mx-auto w-full flex flex-col md:flex-row justify-between gap-10 md:gap-20 py-8 px-6">
         {/* Left section */}
         <div className="flex flex-col ">
