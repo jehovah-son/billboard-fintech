@@ -75,7 +75,7 @@ export default function Navbar() {
                     }`}
                 >
                     <div
-                        className={`shadow transition-all duration-300 w-11/12 right-0 rounded-2xl top-0 pb-3 pt-3 bg-white px-2 block absolute md:hidden ${
+                        className={`shadow rounded-tr-none transition-all duration-300 w-11/12 right-0 rounded-2xl top-0 pb-3 pt-3 bg-white px-2 block absolute md:hidden ${
                             isNavOpen ? "translate-y-0" : "-translate-y-full"
                         }`}
                     >
