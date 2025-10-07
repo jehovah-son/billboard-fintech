@@ -13,7 +13,7 @@ export default function FaQItem({ question, answer }: FAQItemProps) {
     <div>
       <div className=" p-4">
         <button
-          className="w-full flex justify-between items-center text-left text-lg font-semibold text-gray-800"
+          className="w-full flex-1 flex justify-between items-center text-left text-lg font-semibold text-gray-800"
           onClick={() => setIsOpen(!isOpen)}
         >
           {question}
