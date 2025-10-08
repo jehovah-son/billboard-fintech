@@ -5,6 +5,7 @@ import Features from "./component/Features";
 import Preview from "./component/AppPreview";
 import FAQLists from "./component/QandA/Q&AList";
 import Footer from "./component/Footer";
+import CTA from "./component/Cta";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Features />
       <Preview />
       <FAQLists />
+      <CTA />
       <Footer />
     </>
   );

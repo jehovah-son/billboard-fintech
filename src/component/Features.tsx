@@ -3,7 +3,7 @@ import FeatureLists from "../FeatureList";
 export default function Features() {
   return (
     <section id="feature" className="w-full pt-20">
-      <div className="max-w-[1200px] mx-auto px-4">
+      <div className="container mx-auto px-6">
         {/* header */}
         <h1 className="text-5xl font-bold mb-10 text-center md:text-left">
           Features
