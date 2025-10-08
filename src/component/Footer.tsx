@@ -15,18 +15,16 @@ type Links = Link[];
 
 const Links: Links = [
   { id: 1, name: "Home", link: "/" },
-  { id: 2, name: "About", link: "/#about" },
   { id: 3, name: "Contact", link: "/#contact" },
   { id: 4, name: "FAQs", link: "/#FAQs" },
 ];
 
 const Legals: Links = [
   { id: 1, name: "Terms of Use", link: "/#termsOfUse" },
-  { id: 2, name: "Help Center", link: "/#helpCenter" },
   { id: 3, name: "Privacy Policy", link: "/#privacyPolicy" },
   { id: 4, name: "Company", link: "/#company" },
 ];
-// container mx-auto w-full
+
 export default function Footer() {
   return (
     <div className="pt-20">
@@ -51,13 +49,13 @@ export default function Footer() {
             <a href="#">
               <FaceBookIcon className="w-6 h-6 hover:text-[#F4450B]" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/billboardapp.ng">
               <InstagramIcon className="w-6 h-6 hover:text-[#F4450B]" />
             </a>
             <a href="#">
               <LinkinIcon className="w-6 h-6 hover:text-[#F4450B]" />
             </a>
-            <a href="#">
+            <a href="https://x.com/billboardapp_ng">
               <TwitterIcon className="w-6 h-6 hover:text-[#F4450B]" />
             </a>
           </div>
