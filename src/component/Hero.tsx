@@ -5,7 +5,7 @@ import ArrowRightUp from "../../public/Arrow right up.png";
 
 export default function Hero() {
   return (
-    <div className="flex md:flex-row flex-col items-center md:px-0 px-3 w-full gap-5 md:pt-20 pt-10">
+    <div className=" flex md:flex-row flex-col items-center md:px-0 px-3 w-full gap-5 md:pt-20 pt-10">
       {/* text */}
       <div className="flex-col flex-1 md:ml-6">
         <h1 className="md:text-6xl text-4xl font-bold mb-6 leading-[1.2]">
