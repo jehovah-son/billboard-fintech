@@ -17,20 +17,18 @@ const FAQS: FAQLists = [
   {
     id: 2,
     question: "Can I use it without a bank account?",
-    answer:
-      "yes offers a range of services including cryptocurrency exchange, the purchase and " +
-      "sale of various gift cards, bill payments, airtime to cash conversion, and utility payments.",
+    answer: "Absolutely — create a wallet and start sending money instantly. ",
   },
   {
     id: 3,
     question: "Are there hidden charges?",
-    answer: " a product of Digital Limited (Registration Number: R92), ",
+    answer:
+      "No. All fees are shown clearly before you confirm any transaction. ",
   },
   {
     id: 4,
     question: "What can I do on the app?",
-    answer:
-      "Simply download the mobile app, sign up in a few easy steps, and start trading.!",
+    answer: "Send money, pay bills, buy airtime, and save securely.",
   },
 ];
 

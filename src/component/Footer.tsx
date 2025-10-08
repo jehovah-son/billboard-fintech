@@ -42,7 +42,7 @@ export default function Footer() {
               height={200}
             />
           </a>
-          <p className="pb-10 pt-5 text-lg text-gray-700">
+          <p className="md:pb-10 pb-3 pt-5 text-lg text-gray-700">
             Smart banking for everyone.
           </p>
 
